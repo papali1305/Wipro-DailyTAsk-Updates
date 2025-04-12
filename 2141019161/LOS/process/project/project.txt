@@ -1,0 +1,1 @@
+Create a c++ tool that searches for a specific keyword across multiple files in parallel using child process.Each file is assigned to a separate child process created using fork(),and each process uses exec() to run the grep command.The parent uses pipe() to collect and display results from all child processes. The tool waits for all child processes to finish using wait().

@@ -1,0 +1,3 @@
+Critical error: Disk not found.
+Boot sequence failed.
+Hardware check complete.
