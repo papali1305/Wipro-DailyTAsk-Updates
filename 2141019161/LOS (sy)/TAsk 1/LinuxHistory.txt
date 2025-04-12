@@ -1,0 +1,6 @@
+Linux was developed by Linus Torvalds in 1991 as a free and open-source alternative to UNIX. The GNU/Linux system is based on the principles of free software, collaborative development, and transparency. It encourages users to study, modify, and distribute software freely.
+Linux was developed by Linus Torvalds in 1991 as a free and open-source alternative to UNIX. The GNU/Linux system is based on the principles of free software, collaborative development, and transparency. It encourages users to study, modify, and distribute software freely.
+
+
+
+Linux was developed by Linus Torvalds in 1991 as a free and open-source alternative to UNIX. The GNU/Linux system is based on the principles of free softwar
