@@ -1,0 +1,24 @@
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO$ mkdir TASK2
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO$ cd TASK2/
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2$ mkdir tmp
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2$ cd tmp/
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp$ mkdir myfiles
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp$ cd myfiles/
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ echo "This is file one." > file1.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ echo "This is file two." > file2.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ echo "This is file three." > file3.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ ls -l
+total 12
+-rw-r--r-- 1 papali1305 papali1305 18 Apr 17 21:21 file1.txt
+-rw-r--r-- 1 papali1305 papali1305 18 Apr 17 21:21 file2.txt
+-rw-r--r-- 1 papali1305 papali1305 20 Apr 17 21:21 file3.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ chmod g-r file1.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ ls -l
+total 12
+-rw----r-- 1 papali1305 papali1305 18 Apr 17 21:21 file1.txt
+-rw-r--r-- 1 papali1305 papali1305 18 Apr 17 21:21 file2.txt
+-rw-r--r-- 1 papali1305 papali1305 20 Apr 17 21:21 file3.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$ ls -l file1.txt
+-rw----r-- 1 papali1305 papali1305 18 Apr 17 21:21 file1.txt
+papali1305@LAPTOP-EFNNP3TA:~/LSPMWIPRO/TASK2/tmp/myfiles$
+
