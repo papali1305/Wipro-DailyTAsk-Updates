@@ -1,0 +1,13 @@
+Custom CSS to enhance the website's appearance. 
+body { 
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif; 
+} 
+ 
+h1 { 
+    color: #343a40; 
+} 
+ 
+.lead { 
+    color: #6c757d; 
+}

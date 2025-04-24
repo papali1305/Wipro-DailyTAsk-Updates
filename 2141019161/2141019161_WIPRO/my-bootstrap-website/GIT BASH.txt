@@ -1,0 +1,48 @@
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~ (master)
+$ cd Desktop/
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop (master)
+$ cd 21
+2101287315 (2).pdf  2101287315.pdf      2141019161_WIPRO/
+2101287315(1).pdf   2141019161/
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop (master)
+$ cd 2141019161_WIPRO/
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO (master)
+$ touch index.html
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO (master)
+$ touch Dockerfile
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO (master)
+$ cd
+Dockerfile  index.html  my-website/
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO (master)
+$ cd my-website/
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO/my-website (master)
+$ cd ..
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO (master)
+$ mkdir my-bootstrap-website
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO (master)
+$ cd my-bootstrap-website
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO/my-bootstrap-website (master)
+$ touch index.html
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO/my-bootstrap-website (master)
+$ touch styles.css
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO/my-bootstrap-website (master)
+$ touch script.js
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO/my-bootstrap-website (master)
+$ touch Dockerfile
+
+ASUS@LAPTOP-EFNNP3TA MINGW64 ~/Desktop/2141019161_WIPRO/my-bootstrap-website (master)
+$
+

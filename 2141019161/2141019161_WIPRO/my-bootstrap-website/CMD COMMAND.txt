@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.22631.5262]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ASUS>cd Desktop
+
+C:\Users\ASUS\Desktop>mkdir 2141019161_WIPRO
+
+C:\Users\ASUS\Desktop>cd 2141019161_WIPRO
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO>mkdir my-website
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO>cd my-website
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-website>docker build -t my-website .
+[+] Building 7.2s (8/8) FINISHED                                                                   docker:desktop-linux
+ => [internal] load build definition from Dockerfile                                                               0.1s
+ => => transferring dockerfile: 355B                                                                               0.0s
+ => [internal] load metadata for docker.io/library/nginx:alpine                                                    3.3s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load build context                                                                                  0.0s
+ => => transferring context: 644B                                                                                  0.0s
+ => [1/2] FROM docker.io/library/nginx:alpine@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f  3.3s
+ => => resolve docker.io/library/nginx:alpine@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f  0.0s
+ => => sha256:b464cfdf2a6319875aeb27359ec549790ce14d8214fcb16ef915e4530e5ed235 629B / 629B                         0.6s
+ => => sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f2a10 10.33kB / 10.33kB                   0.0s
+ => => sha256:62223d644fa234c3a1cc785ee14242ec47a77364226f1c811d2f669f96dc2ac8 2.50kB / 2.50kB                     0.0s
+ => => sha256:6769dc3a703c719c1d2756bda113659be28ae16cf0da58dd5fd823d6b9a050ea 10.79kB / 10.79kB                   0.0s
+ => => sha256:61ca4f733c802afd9e05a32f0de0361b6d713b8b53292dc15fb093229f648674 1.79MB / 1.79MB                     0.5s
+ => => sha256:d7e5070240863957ebb0b5a44a5729963c3462666baa2947d00628cb5f2d5773 955B / 955B                         0.9s
+ => => extracting sha256:61ca4f733c802afd9e05a32f0de0361b6d713b8b53292dc15fb093229f648674                          0.1s
+ => => sha256:81bd8ed7ec6789b0cb7f1b47ee731c522f6dba83201ec73cd6bca1350f582948 402B / 402B                         0.9s
+ => => sha256:197eb75867ef4fcecd4724f17b0972ab0489436860a594a9445f8eaff8155053 1.21kB / 1.21kB                     1.0s
+ => => extracting sha256:b464cfdf2a6319875aeb27359ec549790ce14d8214fcb16ef915e4530e5ed235                          0.0s
+ => => extracting sha256:d7e5070240863957ebb0b5a44a5729963c3462666baa2947d00628cb5f2d5773                          0.0s
+ => => sha256:34a64644b756511a2e217f0508e11d1a572085d66cd6dc9a555a082ad49a3102 1.40kB / 1.40kB                     1.2s
+ => => extracting sha256:81bd8ed7ec6789b0cb7f1b47ee731c522f6dba83201ec73cd6bca1350f582948                          0.0s
+ => => sha256:39c2ddfd6010082a4a646e7ca44e95aca9bf3eaebc00f17f7ccc2954004f2a7d 15.52MB / 15.52MB                   1.6s
+ => => extracting sha256:197eb75867ef4fcecd4724f17b0972ab0489436860a594a9445f8eaff8155053                          0.0s
+ => => extracting sha256:34a64644b756511a2e217f0508e11d1a572085d66cd6dc9a555a082ad49a3102                          0.0s
+ => => extracting sha256:39c2ddfd6010082a4a646e7ca44e95aca9bf3eaebc00f17f7ccc2954004f2a7d                          1.4s
+ => [2/2] COPY index.html /usr/share/nginx/html/index.html                                                         0.4s
+ => exporting to image                                                                                             0.1s
+ => => exporting layers                                                                                            0.0s
+ => => writing image sha256:9396b24a47574467f8ef18f6df5660e1e0229e96e0cb0139e7ea9070cd15c42d                       0.0s
+ => => naming to docker.io/library/my-website                                                                      0.0s
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-website>docker run -d -p 8080:80 --name my-website-container my-website
+72abcb176bbdf2ab7bff37db3a0755316e508d1a68494df4d1fee7b5c340a04a
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-website>cd ..
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO>cd my-bootstrap-website
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-bootstrap-website>docker build -t my-bootstrap-website .
+[+] Building 0.1s (1/1) FINISHED                                                                   docker:desktop-linux
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 489B                                                                               0.0s
+Dockerfile:1
+--------------------
+   1 | >>> Create a Dockerfile to set up the Nginx container and copy the website files.
+   2 |     # Use the official Nginx image from Docker Hub
+   3 |     FROM nginx:alpine
+--------------------
+ERROR: failed to solve: dockerfile parse error on line 1: unknown instruction: Create
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-bootstrap-website>docker build -t my-bootstrap-website .
+[+] Building 2.7s (10/10) FINISHED                                                                 docker:desktop-linux
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 411B                                                                               0.0s
+ => [internal] load metadata for docker.io/library/nginx:alpine                                                    2.3s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => CACHED [1/4] FROM docker.io/library/nginx:alpine@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b7  0.0s
+ => [internal] load build context                                                                                  0.0s
+ => => transferring context: 1.81kB                                                                                0.0s
+ => [2/4] COPY index.html /usr/share/nginx/html/                                                                   0.0s
+ => [3/4] COPY styles.css /usr/share/nginx/html/                                                                   0.1s
+ => [4/4] COPY script.js /usr/share/nginx/html/                                                                    0.1s
+ => exporting to image                                                                                             0.1s
+ => => exporting layers                                                                                            0.1s
+ => => writing image sha256:e141307aef8e5d6b66dc3ff6b0cf58e85a5acd3f175ccee355eb7780c7549223                       0.0s
+ => => naming to docker.io/library/my-bootstrap-website                                                            0.0s
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-bootstrap-website>docker run -d -p 8080:80 --name my-bootstrap-website-container my-bootstrap-website
+c2837cf6eb51d8f5b1e555f8881cf1be5cfaa97df4f4c96b773b12b900fff012
+
+C:\Users\ASUS\Desktop\2141019161_WIPRO\my-bootstrap-website>
