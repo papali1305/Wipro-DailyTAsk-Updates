@@ -111,6 +111,141 @@ Each task folder contains a `screenshots/` directory with visual evidence of:
 - Program results
 - Debugging sessions
 
+
+
+#LOS
+Here’s a **complete and well-formatted `README.md`** for your `Wipro-DailyTask-Updates` GitHub repository, combining all the tasks and assignments with clear links and structure:
+
+---
+
+```markdown
+# Wipro Daily Task Updates
+
+Welcome to the **Wipro Daily Task Updates** repository. This repository contains all my completed Linux-based daily tasks and assignments during Wipro training. Each task is organized in its own folder for clarity and traceability.
+
+---
+
+## 📚 Tasks
+
+### ✅ Task 1: Linux History and Philosophy
+- Created `LinuxHistory.txt` summarizing the origin and philosophy of Linux.
+- **Key Topics**:
+  - Open-source development
+  - Modular program design
+  - Text-based configuration
+  - Flexibility and user control  
+- 📄 [View File](Task1/LinuxHistory.txt)
+
+---
+
+### ✅ Task 2: File Navigation and Directory Structure
+- Practiced navigation commands (`cd`, `ls`, `pwd`, etc.)
+- Created and managed directories like `Practice`
+- 📄 [View Commands](Task2/commands.txt)
+
+---
+
+### ✅ Task 3: File Management Commands
+- Created and manipulated files using `touch`, `mv`, `rm`, and `cat`
+- Learned basic text editing via `nano` and redirection
+- 📄 [View Commands](Task3/commands.txt)
+
+---
+
+### ✅ Task 4: Using `grep` to Search within Files
+- Used `grep` to search for all instances of "Linux" in `LinuxHistory.txt`
+- Output redirected to `LinuxInstances.txt`
+- 📄 [View Output](Task4/LinuxInstances.txt)
+
+---
+
+### ✅ Task 5: Permissions and Ownership
+- Viewed and modified file permissions using `chmod`
+- Set read-only permissions for owner, no access for others
+- Changed ownership of files using `chown`
+- 📄 [View Commands](Task5/commands.txt)
+
+---
+
+### ✅ Task 6: Remote System Access
+- Accessed remote system via `ssh`
+- Transferred files between local and remote using `scp`
+- Practiced secure file management across systems
+- 📄 [View Commands](Task6/commands.txt)
+
+---
+
+## 🧠 Assignments
+
+### 📂 Assignment 1: Text Processing and Automation
+- Developed a Bash script to analyze failed login attempts from `/var/log/auth.log`
+- Extracted data using `grep` and `awk`, summarized failed attempts per user
+- 📜 [View Script](Assignment1/login_analyzer.sh)
+
+---
+
+### 📂 Assignment 2: Version Control with Git
+- Simulated Git workflow including:
+  - Branch creation
+  - Merge conflict handling
+  - Resolution strategy
+- 📝 [View Details](Assignment2/README.md)
+
+---
+
+### 📂 Assignment 3: Collaborative Development Using Git
+- Forked a public GitHub repo
+- Cloned, made changes, committed and created a pull request
+- Documented the collaborative Git workflow
+- 📝 [View Details](Assignment3/README.md)
+
+---
+
+## 🗂 Repository Structure
+
+```
+Wipro-DailyTask-Updates/
+├── README.md
+├── Task1/
+│   └── LinuxHistory.txt
+├── Task2/
+│   └── commands.txt
+├── Task3/
+│   └── commands.txt
+├── Task4/
+│   └── LinuxInstances.txt
+├── Task5/
+│   └── commands.txt
+├── Task6/
+│   └── commands.txt
+├── Assignment1/
+│   └── login_analyzer.sh
+├── Assignment2/
+│   └── README.md
+└── Assignment3/
+    └── README.md
+```
+
+---
+
+## 🧾 License
+
+This repository is part of the Wipro Linux training program. All contents are educational and for learning purposes only.
+
+---
+
+## 🔗 Connect
+
+Created by [@papali1305](https://github.com/papali1305)  
+Happy Learning! 🐧💻
+```
+
+---
+
+You can copy this entire content into your `Wipro-DailyTask-Updates/README.md` file before pushing it to GitHub. Would you like a ZIP version of the folder structure to directly import or sync into your project?
+
+
+
 ## How to Run
 
 1. Clone the repository:
